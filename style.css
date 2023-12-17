@@ -368,3 +368,12 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
     border-radius: 10px;
 }
+
+#ework4.ework{
+    height: 100%;
+}
+
+.kurt{
+    height: 555px;
+
+}
