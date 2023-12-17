@@ -46,6 +46,7 @@ nav ul{
     border-radius: 10px;
     border-color: #ebe156;
     border-style:inset;
+    margin-top: 5px;
 }
 
 nav ul li{
@@ -78,7 +79,8 @@ nav ul li a:hover::after{
 }
     
 .header-text {
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-left: 29%;
     font-size: 30px;
 }
 
@@ -268,7 +270,11 @@ nav ul li a:hover::after{
     height: 110%;
     width: 110%;
 }
-
+.trendhim{
+    width: 100%;
+    height: auto;
+    display: block;
+}
 .layer{
     color: #080808;
     width: 100%;
@@ -368,12 +374,11 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
     border-radius: 10px;
 }
-
+/*---------------------flows-------------------*/
 #ework4.ework{
     height: 100%;
 }
 
 .kurt{
     height: 555px;
-
 }
