@@ -370,7 +370,7 @@ nav ul li a:hover::after{
 
 .media-element img{
     width: 100%;
-    height: 80%;
+    height: auto;
     transition: transform 0.5s;
     border-radius: 10px;
 }
@@ -386,18 +386,19 @@ nav ul li a:hover::after{
 /*---------------------scrlltotopbtn--------------*/
 
 #scrollToTopBtn {
-    display: block;
+    display: block ;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
+    background-color: #080808;
+    color: #ebe156;
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
+    border-color: #ebe156;
   }
 
   #scrollToTopBtn:hover {
-    background-color: #0056b3;
+    background-color: #ebe156;
+    color: #080808;
   }
