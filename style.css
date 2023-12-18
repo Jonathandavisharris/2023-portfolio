@@ -382,3 +382,22 @@ nav ul li a:hover::after{
 .kurt{
     height: 555px;
 }
+
+/*---------------------scrlltotopbtn--------------*/
+
+#scrollToTopBtn {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  #scrollToTopBtn:hover {
+    background-color: #0056b3;
+  }
