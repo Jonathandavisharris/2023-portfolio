@@ -13,11 +13,11 @@
             <nav>
                 <img src="images/logoport3.png" class="logo">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="">Portfolio</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index2.html">Portfolio</a></li>
                     <li><a href="">Process</a></li>
-                    <li><a href="">Services</a></li>
+                    <li><a href="index.html#services">Services</a></li>
                     <li></li>
                 </ul>
                 <video width="300" height="150" controls loop autoplay>
@@ -31,6 +31,7 @@
             </div>
         </div>
     </div>
+    <button id="scrollToTopBtn" onclick="scrollToTop()">Scroll To Top</button>
 <!----------------------------------------FLOW 1------------------------>
 <div id="portfolio" class="hologram">
     <div class="container">
@@ -115,7 +116,7 @@
 </div>
 <!------------------------FLOW 2---------------------------------->
 
-<div id="portfolio" class="toons">
+<div id="portfolio1" class="toons">
     <div class="container">
         <h1 class="titelabout">Flow 2</h1>
         <p>Lorem lorem loremLorem lorem loremLorem lorem lorem
@@ -207,7 +208,7 @@
     <a href="#">Link til figma prototype</a>
 </div>
 <!----------------FLOW 3----------------------------------->
-<div id="portfolio" class="hologram">
+<div id="portfolio2" class="hologram">
     <div class="container">
         <h1 class="titelabout">Flow 3</h1>
         <p>Lorem lorem loremLorem lorem loremLorem lorem lorem
@@ -235,7 +236,7 @@
     </div>
 </div>
 <!------------------------FLOW 4------------------------>
-<div id="portfolio" class="hologram">
+<div id="portfolio3" class="hologram">
     <div class="container">
         <h1 class="titelabout">Flow 4</h1>
         <p>Lorem lorem loremLorem lorem loremLorem lorem lorem
@@ -247,6 +248,13 @@
             Lorem lorem loremLorem lorem loremLorem lorem lorem
             Lorem lorem loremLorem lorem loremLorem lorem lorem
         </p>
+        <div class="ework-list">
+            <div class="ework">
+                <a href="#" class="button">5 sec video</a>   
+                <a href="#" class="button">15 sec video</a>   
+                <a href="#" class="button">30 sec video</a>
+            </div>
+    </div>
         <div class="ework-list" id="flow1pf">
             <div class="ework">
                 <img src="">
@@ -256,7 +264,8 @@
                 </div>
             </div>
         </div>
-            <h2 class="section-title">Private Digitale illustrationer</h2>
+        
+            <h2 class="section-title">Storyboards</h2>
         </div> 
         <div class="ework-list" id="flow1pf">
             <div class="ework">
@@ -440,8 +449,9 @@
     </div>
 </div>
 
-    <h2 class="section-title">Private Digitale illustrationer</h2>
-    <div class="media-scroller">
+   
+
+    <div class="media-scroller" id="media-scroller4">
         <div class="media-element">
             <img src="images/pwork1.png" alt="">
             <div class="layer">

@@ -382,7 +382,9 @@ nav ul li a:hover::after{
 .kurt{
     height: 555px;
 }
-
+#fem-sek{
+    padding-left: 33%;
+}
 /*---------------------scrlltotopbtn--------------*/
 
 #scrollToTopBtn {
@@ -401,4 +403,15 @@ nav ul li a:hover::after{
   #scrollToTopBtn:hover {
     background-color: #ebe156;
     color: #080808;
+  }
+
+  #flow1pf{
+    margin-left: 10%;
+  }
+
+  #media-scroller4{
+    margin-left: 10%;
+  }
+  #private-illustration-title{
+    margin-left: 10%;
   }
