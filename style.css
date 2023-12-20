@@ -132,6 +132,7 @@ nav ul li a:hover::after{
 
 
 .titelabout{
+    margin-top: 10%;
     font-size: 60px;
     color: #fff;
 }
@@ -256,8 +257,7 @@ nav ul li a:hover::after{
 .ework img{
     width: 100%;
     border-radius: 10px;
-    overflow: hidden;
-    display: block;    
+    overflow: hidden; 
     transition: transform 0.5s; /*hastighed på forstørrelsen*/
 }
 
@@ -405,12 +405,14 @@ nav ul li a:hover::after{
     color: #080808;
   }
 
-  #flow1pf{
+  #storyboard{
     margin-left: 10%;
+    margin-right: 10%;
   }
 
   #media-scroller4{
     margin-left: 10%;
+    margin-right: 10%;
   }
   #private-illustration-title{
     margin-left: 10%;
