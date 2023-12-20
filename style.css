@@ -31,8 +31,9 @@ body {
     padding: 10px 10%;
 }
 .ember{
-
-    margin: 23%;
+    max-width: 100%;
+    height: auto;
+    margin: 30%;
 }
 nav {
     display: flex;
