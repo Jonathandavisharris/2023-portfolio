@@ -30,7 +30,10 @@ body {
 .container {
     padding: 10px 10%;
 }
+.ember{
 
+    margin: 23%;
+}
 nav {
     display: flex;
     align-items: center;
@@ -39,6 +42,7 @@ nav {
     position: absolute;
     top: 0px;
     z-index: 1;
+    margin-left: 7%;
 }
 
 nav ul{
@@ -131,7 +135,9 @@ nav ul li a:hover::after{
     border-color: #ebe156;
     border-style:inset;
 }
-
+.about-col-2 li{
+    padding: 3%;
+}
 
 .titelabout{
     font-size: 60px;
@@ -405,6 +411,7 @@ nav ul li a:hover::after{
     padding: 10px 20px;
     cursor: pointer;
     border-color: #ebe156;
+    z-index: 1;
   }
 
   #scrollToTopBtn:hover {
@@ -441,5 +448,58 @@ nav ul li a:hover::after{
 .portfolio-txt-col ul{
     margin: 2% 7%;
 }
-  /*---------------------------MEDIAQUEUERY-------------*/
 
+/*------------------DOKUMENTATION-------------*/
+#doku-col{
+    z-index: 1;
+    margin-top: 16%;
+}
+  /*---------------------------MEDIAQUEUERY-------------*/
+nav .fa-solid{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+
+    }
+    nav ul{
+        background-color: #ebe156;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+
+    }
+    
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 30px;
+        cursor: pointer;
+    }
+    nav .logo{
+        width: 70%;
+    }
+
+    .titelabout{
+        font-size: 40px;
+    }
+    .about-col-1, .about-col-2 {
+        flex-basis: 100%;
+        flex-direction: column; /* Updated flex direction */
+     }
+
+     .ember{
+        margin-top: 70%;
+     }

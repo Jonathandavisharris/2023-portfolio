@@ -13,25 +13,48 @@
         <div class="container">
             <nav>
                 <img src="images/logoport3.png" class="logo">
-                <ul>
+                <ul id="sidemenu">
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="index.html#portfolio-cont">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio-cont">Portfolio</a></li>
                     <li><a href="index3.html">Process</a></li>
-                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="#services">Services</a></li>
                     <li></li>
                 </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
                 <video width="300" height="150" controls loop autoplay>
                     <source src="images/g1.mp4" type="video/mp4" class="ghostie">
                     Your browser does not support the video tag.
                 </video>
             </nav>
             <div class="header-text">
-                <p>Illustrator, painter and student in UI/UX design</p>
                <!-- <h1>Hey! Mit navn er <span>Jonathan</span><br>Harris Dette er mit portfolio</h1>-->
             </div>
         </div>
+        <div class="container">
+            <div class="portfolio-txt-col" id="doku-col">
+            <h1 class="titelabout">DOKUMENTATION</h1>
+            <p>Da jeg altid gerne ville have lavet et portfolio til min kunst, har jeg over de sidste mange år gået og gærdet omkring hvorfor et design jeg gerne ville have.</p>
+            <p>Jeg har som sagt tegnet og illustreret hele mit liv og vil fortsætte med at gøre det, hvilket betyder at denne portfolio har et lille præg af min personlighed over den</p>
+            <p>Alle illustrationer der er brugt samt logoet er genovervejet og hjemmelavet</p>
+            <ul>
+                <li>GOBLAN CLAN er lavet på procreate samt de fleste af alle de andre illustrationer</li>
+                <li>GOBLAN er brugt pga det er kendetegnet ved mig og mit upcoming ALIAS/egen virksomhed.</li>
+                <li>Kodningen har jeg brugt lidt flex box, men mest GRID eftersom det giver mulighed for at arbejde i "lag"/2-dimensionelt</li>
+                <li>Jeg kodede den første index uden et repository fordi jeg er en nød.</li>
+                <li>Derfra fik jeg min bror til at hjælpe mig med at sætte et op, kopierede alt hvad jeg havde lavet over</li>
+                <li>fremadrettet kan hele min kodeprocess findes i mit repository</li>
+            </ul>
+            <a href="https://github.com/Jonathandavisharris/2023-portfolio" class="button">LINK TIL REPOSITORY</a>   
+            <a href="https://www.figma.com/file/5sRYh0vitYDzoMQ9xAXZUi/Portfolio---prep?type=whiteboard&node-id=0%3A1&t=YH3QXXWkNmMS3RPq-1" class="button">LINK TIL FIGMA</a>
     </div>
+    </div>
+
 <button id="scrollToTopBtn" onclick="scrollToTop()">Scroll To Top</button>
+
+
+       
 </body>
+<script src="main.js"></script>
 </html>

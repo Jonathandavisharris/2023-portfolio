@@ -13,7 +13,8 @@
         <div class="container">
             <nav>
                 <img src="images/logoport3.png" class="logo">
-                <ul>
+                <ul id="sidemenu">
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#portfolio-cont">Portfolio</a></li>
@@ -21,13 +22,15 @@
                     <li><a href="#services">Services</a></li>
                     <li></li>
                 </ul>
-                <video width="300" height="150" controls loop autoplay>
-                    <source src="images/g1.mp4" type="video/mp4" class="ghostie">
-                    Your browser does not support the video tag.
-                </video>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
+            <div class="ember">
+            <video width="200" height="350" controls loop autoplay>
+                <source src="images/embervid (1).mp4" type="video/mp4" class="ghostie">
+                Your browser does not support the video tag.
+            </video>
+        </div>
             <div class="header-text">
-                <p>Illustrator, painter and student in UI/UX design</p>
                <!-- <h1>Hey! Mit navn er <span>Jonathan</span><br>Harris Dette er mit portfolio</h1>-->
             </div>
         </div>
@@ -42,7 +45,14 @@
             </div>
             <div class="about-col-2">
                 <h1 class="titelabout">About me</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Mit navn er Jonathan Harris, jeg er 28 år gammel og upcoming multimedie designer! </p>
+                 <ul>
+                    <li>Velkommen til mit kreative hjørne! Jeg er en autodidakt illustrator med en livslang passion for at udtrykke mig gennem kunst og farver. Gennem dedikeret selvstudium har jeg forfinet mine illustrationsevner og udviklet en intuitiv forståelse for farve og æstetik, der giver mine værker en unik signatur.</li>
+                    <li>Min rejse ind i kodens verden er stadig ung, men jeg tror på, at øvelse er nøglen til mesterskab. Jeg udforsker ivrigt kodningens rige for at udvide mine kreative grænser og skabe en fusion mellem kunst og teknologi.</li>
+                    <li>Drømmen, der driver mig, er at blive en selvstændig kunstner og arbejde fra mit professionelle portfolio. Denne rejse er ikke kun om at mestre penslen, men også om at forstå det komplekse landskab af medier, som vores verden er dybt forankret i i dag.</li>
+                    <li>Jeg har valgt at forfølge denne uddannelse for at dykke ned i det bredere spektrum af medieverdenen og udforske alt fra illustration til kodning. Min vision er at skabe kunst, der ikke kun er visuelt tiltalende, men også integrerer moderne teknologi for at skabe meningsfulde og engagerende oplevelser.</li>
+                    <li>Tak for at udforske min rejse med mig. Lad os sammen skabe og udforske grænserne for kreativitet i denne digitale æra.</li>
+                </ul>
                 <div class="tab-titel">
                     <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
                 </div>
@@ -82,22 +92,19 @@
             <div>
                 <i class="fa-solid fa-code"></i>
                 <h2>Web Design</h2>
-                <p>>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                tempor incididunt ut labore et dolore magna aliqua</p>
+                <p>Jeg skaber websider, udvikler front-end og bringer dine mest fantastiske ideer til live på din skærm.</p>
                 <a href="#">learn more</a>
             </div>
             <div>
                 <i class="fa-brands fa-digital-ocean"></i>
                 <h2>Digital Concept Art</h2>
-                <p>>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                tempor incididunt ut labore et dolore magna aliqua</p>
+                <p>Uanset om du har brug for en hjemmeside til dit event eller en fantastisk onlineoplevelse, så er jeg klar til at levere.</p>
                 <a href="#">learn more</a>
             </div>
             <div>
                 <i class="fa-solid fa-paintbrush"></i>
                 <h2>Illustrations and Art</h2>
-                <p>>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                tempor incididunt ut labore et dolore magna aliqua</p>
+                <p>Jeg kan skabe illustrationer inden for enhver genre – kvinder, dyr, tegneserier, manga – du nævner det, jeg tegner det.</p>
                 <a href="#">learn more</a>
             </div>
         </div>
