@@ -41,7 +41,7 @@
     <div class="container" id="about-cont">
         <div class="row">
             <div class="about-col-1">
-                <img src="images/profilb.jpg" id="pb">
+                <img src="images/pb.jpg" id="pb">
             </div>
             <div class="about-col-2">
                 <h1 class="titelabout">About me</h1>
@@ -184,28 +184,6 @@
         <a href="index2.html#media-scroller4" class="button">See more</a>
     </div>
 </div>
-
-
-
-
-    <!-- denne javascript kode får tabcontent informationen til at forsvinde når man trykker på Exp, skills eller edu skal fixes-->
-<script>
-
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontent = document.getElementsByClassName("tab-contents");
-    
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
-        }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
-
-</script>
 
 </body>
 <script src="main.js"></script>
